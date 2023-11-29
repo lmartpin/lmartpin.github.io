@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pagPrincipal.css">
+    <title>Contacto - Restaurante La Favorita</title>
+</head>
+<a href="index.html">Página Principal</a>
+<a href="PrimerosPlatos.html">Primeros Platos</a>
+    <a href="SegundosPlatos.html">Segundos Platos</a>
+    <a href="Postres.html">Postres</a>
+    <a href="contact.html">Contáctenos</a>
+    <a href="game.html">Juego</a>
+<body>
+    <section id="Destacadas">
+    <h1>¡Contáctenos!</h1>
+    <p>Complete el formulario a continuación para contactarnos y reservar tu mesa:</p>
+    <form action="submit.php" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+</body>
+</html>

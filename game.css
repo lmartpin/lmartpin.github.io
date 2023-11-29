@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que prefieras */
+    background: linear-gradient(to bottom, #3f5be4, #2c3e50);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-style: italic; /* Cambia el estilo de la letra según tus preferencias */
+}
+
+p {
+    color: #ecf0f1;
+}
+
+#food-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.food {
+    width: 120px;
+    height: 120px;
+    margin: 0 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#timer {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#score {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Optional: Add a subtle animation to the score */
+@keyframes scoreAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+#score.animate {
+    animation: scoreAnimation 0.5s ease-in-out;
+}
+
+#score.animate {
+    animation: scoreAnimation 0.5s ease-in-out;
+}
+
+/* Estilo para las partículas de confeti */
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f00; /* Puedes ajustar el color según tus preferencias */
+    border-radius: 50%;
+    animation: fall 3s ease-out infinite;
+}
+
+h2 {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f0a4a4;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form {
+    color: #fff;
+    margin: 100px;
+    padding: 10px 20px;
+    background-color: #d92c2f;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    
+}
+
+section{
+    padding: 20px;
+    border: 2px solid #faf6f6 ;
+    margin: 80px;
+}
+
+
+
+a:hover {
+    background-color: #ce3845;
+}
+
+ol {
+text-align: left;
+}

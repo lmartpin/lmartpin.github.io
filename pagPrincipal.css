@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #f7f5f5;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+footer {
+    color: #f7f5f5;
+    font-size: 16px;
+    margin-top: 550px;
+}
+
+
+p {
+    font-size: 18px;
+    color: #f4eeee;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f0a4a4;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form {
+    color: #fff;
+    margin: 100px;
+    padding: 10px 20px;
+    background-color: #d92c2f;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    
+}
+
+section{
+    padding: 20px;
+    border: 2px solid #faf6f6 ;
+    margin: 80px;
+}
+
+
+
+a:hover {
+    background-color: #ce3845;
+}
+
+
+h1 {
+    font-size: 28px;
+}
+
+a {
+    margin: 5px;
+    padding: 5px 15px;
+}
+
+
+body{
+    background-image: url('https://madridsecreto.co/wp-content/uploads/2023/02/Restaurante-Maison-Jaguar_.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h5 {
+    text-align: center;
+    margin-top: 245px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+
+}

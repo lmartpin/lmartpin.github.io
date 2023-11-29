@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Food</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<h2>
+  <a href="index.html">Página Principal</a>
+<a href="PrimerosPlatos.html">Primeros Platos</a>
+<a href="SegundosPlatos.html">Segundos Platos</a>
+<a href="Postres.html">Postres</a>
+<a href="contact.html">Contáctenos</a>
+<a href="game.html">Juego</a>
+</h2>
+
+<body onclick="PlayAudio()">
+  
+    <h1>JUEGO DE LA FRUTA</h1>
+    <a href="Reglas.html">Reglas</a>
+    
+    <p>Haz click en la fruta correcta para ganar:</p>
+    <div id="food-container">
+        <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f34e.png" alt="Apple" class="food" onclick="checkFood('Apple')">
+        <img src="https://icons.iconarchive.com/icons/google/noto-emoji-food-drink/256/32346-banana-icon.png" alt="Banana" class="food" onclick="checkFood('Banana')">
+        <img src="https://images.emojiterra.com/google/android-11/512px/1f350.png" alt="Pera" class="food" onclick="checkFood('Pera')">
+        <img src="https://images.emojiterra.com/mozilla/512px/1f34a.png" alt="Naranja" class="food" onclick="checkFood('Naranja')">
+        <img src="https://images.emojiterra.com/google/android-10/512px/1f349.png" alt="Sandía" class="food" onclick="checkFood('Sandía')">
+    </div>
+
+
+    <p id="timer">Tiempo Restante: <span id="time-display">10</span> segundos</p>
+    <p>Score: <span id="score-display">0</span></p>
+
+    <script src="game.js"></script>
+
+    <audio id="musica1" loop>
+        <source src="on-the-road-to-the-eighties_59sec-177566.mp3" type="audio/mpeg">
+           </audio> 
+          <script>
+            function PlayAudio() {
+              document.getElementById("musica1").play();
+            }
+</script>
+
+</body>
+</html>
